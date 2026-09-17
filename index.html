@@ -409,7 +409,7 @@
       </ul>
     </div>
 
-    <form class="form" id="form" novalidate>
+    <form class="form" id="form_2" novalidate>
       <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" autocomplete="name" required><i aria-hidden="true"></i></div>
       <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required><i aria-hidden="true"></i></div>
       <div class="field"><label for="f-type">Project type</label>
@@ -483,5 +483,40 @@
 <script src="assets/js/form.js"></script>
 <script src="assets/js/progress.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+document.getElementById('form_2').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const form = this;
+
+  if (!form.checkValidity()) {
+    form.reportValidity();
+    return;
+  }
+
+  const name = document.getElementById('f-name').value.trim();
+  const email = document.getElementById('f-email').value.trim();
+  const projectType = document.getElementById('f-type').value;
+  const budget = document.getElementById('f-budget').value;
+  const message = document.getElementById('f-msg').value.trim();
+
+  const whatsappMessage = `Hi, I would like to discuss a project.
+
+Name: ${name}
+Email: ${email}
+Project Type: ${projectType}
+Budget: ${budget}
+
+Message:
+${message}`;
+
+  const phoneNumber = '918980452212';
+
+  const whatsappURL =
+    `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+  window.open(whatsappURL, '_blank');
+});
+</script>
 </body>
 </html>

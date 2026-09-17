@@ -8,6 +8,18 @@
     "dev": "npx --yes serve . -l 5500",
     "shots": "node tools/capture-screenshots.mjs"
   },
-  "keywords": ["portfolio", "shopify", "gsap", "lenis", "scrolltrigger"],
-  "license": "MIT"
+  "keywords": [
+    "portfolio",
+    "shopify",
+    "gsap",
+    "lenis",
+    "scrolltrigger"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
 }

@@ -21,7 +21,7 @@ const SITE = {
      year    → leave '' to hide the year
      summary → leave '' to fall back to the neutral line below
      ---------------------------------------------------------------- */
-  imageExt: 'svg',        // switch to 'png' or 'webp' after you run `npm run shots`
+  imageExt: 'png',        // switch to 'png' or 'webp' after you run `npm run shots`
   defaultSummary: 'Shopify storefront build — theme development, custom sections and responsive front-end.',
 
   projects: [
