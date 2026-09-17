@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1240" viewBox="0 0 1600 1240" role="img" aria-label="Placeholder for The Pink Moon">
+  <rect width="1600" height="1240" fill="#141413"/>
+  <rect x="1" y="1" width="1598" height="1238" fill="none" stroke="#F5F5F0" stroke-opacity=".14"/>
+  <g transform="translate(320 174) scale(2.402)"><circle cx="164" cy="152" r="44" fill="none" stroke="#F5F5F0" stroke-opacity=".45" stroke-width="2"/><circle cx="236" cy="152" r="44" fill="none" stroke="#4FB07A" stroke-width="2"/></g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#F5F5F0">
+    <text x="96" y="918" font-size="68" font-weight="bold" letter-spacing="-1">The Pink Moon</text>
+    <text x="96" y="992" font-size="35" letter-spacing="5.0" fill-opacity=".45">thepinkmoon.in</text>
+    <text x="96" y="1128" font-size="32" letter-spacing="5.0" fill-opacity=".4">PLACEHOLDER · DESKTOP · 1600 × 1240</text>
+    <text x="96" y="1184" font-size="29" fill-opacity=".28">Run `npm run shots` or drop your own screenshot here</text>
+  </g>
+</svg>

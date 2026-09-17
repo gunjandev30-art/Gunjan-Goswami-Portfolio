@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1240" viewBox="0 0 1600 1240" role="img" aria-label="Placeholder for Your Basil">
+  <rect width="1600" height="1240" fill="#141413"/>
+  <rect x="1" y="1" width="1598" height="1238" fill="none" stroke="#F5F5F0" stroke-opacity=".14"/>
+  <g transform="translate(320 174) scale(2.402)"><path d="M120 200a80 80 0 0 1 160 0" fill="none" stroke="#4FB07A" stroke-width="2"/><path d="M120 200h160" stroke="#F5F5F0" stroke-opacity=".4" stroke-width="2"/></g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#F5F5F0">
+    <text x="96" y="918" font-size="68" font-weight="bold" letter-spacing="-1">Your Basil</text>
+    <text x="96" y="992" font-size="35" letter-spacing="5.0" fill-opacity=".45">yourbasil.com</text>
+    <text x="96" y="1128" font-size="32" letter-spacing="5.0" fill-opacity=".4">PLACEHOLDER · DESKTOP · 1600 × 1240</text>
+    <text x="96" y="1184" font-size="29" fill-opacity=".28">Run `npm run shots` or drop your own screenshot here</text>
+  </g>
+</svg>

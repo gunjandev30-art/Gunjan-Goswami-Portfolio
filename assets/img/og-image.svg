@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Social share placeholder">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  <circle cx="70" cy="300" r="9" fill="#4FB07A"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#F5F5F0">
+    <text x="96" y="312" font-size="64" font-weight="bold" letter-spacing="-2">GUNJAN GOSWAMI</text>
+    <text x="96" y="372" font-size="26" letter-spacing="5" fill-opacity=".55">SHOPIFY DEVELOPER</text>
+    <text x="96" y="560" font-size="20" letter-spacing="3" fill-opacity=".35">PLACEHOLDER · OG IMAGE · 1200 × 630</text>
+  </g>
+</svg>

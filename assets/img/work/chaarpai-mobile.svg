@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850" role="img" aria-label="Placeholder for Chaarpai">
+  <rect width="1000" height="850" fill="#141413"/>
+  <rect x="1" y="1" width="998" height="848" fill="none" stroke="#F5F5F0" stroke-opacity=".14"/>
+  <g transform="translate(190 134) scale(1.550)"><path d="M200 90l70 120H130z" fill="none" stroke="#4FB07A" stroke-width="2"/><path d="M110 246h180" stroke="#F5F5F0" stroke-opacity=".4" stroke-width="2"/></g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#F5F5F0">
+    <text x="60" y="629" font-size="53" font-weight="bold" letter-spacing="-1">Chaarpai</text>
+    <text x="60" y="680" font-size="24" letter-spacing="3.4" fill-opacity=".45">www.chaarpai.com</text>
+    <text x="60" y="774" font-size="22" letter-spacing="3.4" fill-opacity=".4">PLACEHOLDER · MOBILE · 1000 × 850</text>
+    <text x="60" y="812" font-size="20" fill-opacity=".28">Run `npm run shots` or drop your own screenshot here</text>
+  </g>
+</svg>

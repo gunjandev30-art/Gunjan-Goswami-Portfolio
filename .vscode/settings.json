@@ -1,0 +1,12 @@
+{
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.rulers": [110],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "emmet.includeLanguages": { "liquid": "html" },
+  "css.lint.unknownAtRules": "ignore",
+  "search.exclude": { "**/node_modules": true }
+}

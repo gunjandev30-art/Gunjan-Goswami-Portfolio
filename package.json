@@ -1,0 +1,13 @@
+{
+  "name": "shopify-developer-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site for a Shopify developer — HTML, CSS, JavaScript, GSAP and Lenis.",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve . -l 5500",
+    "dev": "npx --yes serve . -l 5500",
+    "shots": "node tools/capture-screenshots.mjs"
+  },
+  "keywords": ["portfolio", "shopify", "gsap", "lenis", "scrolltrigger"],
+  "license": "MIT"
+}

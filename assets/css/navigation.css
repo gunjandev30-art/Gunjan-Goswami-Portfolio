@@ -1,0 +1,46 @@
+/* ============================================================
+   assets/css/navigation.css
+   ============================================================ */
+.skip{position:fixed; top:-100px; left:var(--pad); z-index:210; background:var(--fg); color:var(--bg); padding:.7rem 1.1rem}
+.skip:focus{top:1rem}
+
+.nav{position:fixed; inset:0 0 auto 0; z-index:150; padding:1.5rem var(--pad); transition:padding .45s var(--e-out)}
+.nav::before{
+  content:""; position:absolute; inset:0; background:var(--bg-veil);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line); opacity:0; transition:opacity .45s var(--e-out);
+}
+.nav.is-stuck{padding-top:.85rem; padding-bottom:.85rem}
+.nav.is-stuck::before{opacity:1}
+.nav__in{position:relative; display:flex; align-items:center; justify-content:space-between; gap:2rem}
+.brand{font-family:var(--display); font-weight:700; font-size:1.0625rem; letter-spacing:-.035em; text-transform:uppercase; display:flex; align-items:center; gap:.6rem}
+.brand i{width:7px; height:7px; border-radius:50%; background:var(--accent); display:block}
+.nav__links{display:flex; gap:2.1rem}
+.nav__links a{font-size:.8125rem; letter-spacing:.02em; position:relative; padding:.3rem 0; color:var(--muted); transition:color .3s}
+.nav__links a::after{content:""; position:absolute; left:0; bottom:0; height:1px; width:100%; background:var(--fg); transform:scaleX(0); transform-origin:right; transition:transform .5s var(--e-out)}
+.nav__links a:hover{color:var(--fg)}
+.nav__links a:hover::after{transform:scaleX(1); transform-origin:left}
+.nav__cta{display:inline-flex; align-items:center; gap:.55rem; font-size:.8125rem; border:1px solid var(--line); padding:.62rem 1.1rem; border-radius:100px; transition:background .4s var(--e-out),color .4s var(--e-out),border-color .4s}
+.nav__cta svg{width:12px; transition:transform .45s var(--e-out)}
+.nav__cta:hover{background:var(--fg); color:var(--bg); border-color:var(--fg)}
+.nav__cta:hover svg{transform:translateX(4px)}
+
+.burger{display:none; width:44px; height:44px; margin-right:-10px; position:relative; z-index:2}
+.burger i{position:absolute; left:11px; width:22px; height:1.5px; background:var(--fg); transition:transform .5s var(--e-out),opacity .3s}
+.burger i:nth-child(1){top:19px} .burger i:nth-child(2){top:25px}
+.menu-open .burger i:nth-child(1){transform:translateY(3px) rotate(45deg)}
+.menu-open .burger i:nth-child(2){transform:translateY(-3px) rotate(-45deg)}
+
+.menu{
+  position:fixed; inset:0; z-index:140; background:var(--bg); padding:6.5rem var(--pad) var(--pad);
+  display:flex; flex-direction:column; justify-content:space-between;
+  clip-path:inset(0 0 100% 0); visibility:hidden;
+  transition:clip-path .85s var(--e-out),visibility 0s linear .85s;
+}
+.menu.is-open{clip-path:inset(0 0 0% 0); visibility:visible; transition:clip-path .85s var(--e-out),visibility 0s}
+body.menu-open{overflow:hidden}
+.menu__list a{font-family:var(--display); font-weight:700; text-transform:uppercase; letter-spacing:-.04em;
+  font-size:clamp(2.4rem,11vw,4.4rem); line-height:1.02; display:block; padding:.08em 0}
+.menu__list li{overflow:hidden}
+.menu__list em{font-style:normal; font-size:.75rem; letter-spacing:.2em; color:var(--faint); vertical-align:super; margin-right:.5rem; font-family:var(--body)}
+.menu__foot{display:flex; justify-content:space-between; gap:1.5rem; flex-wrap:wrap; border-top:1px solid var(--line); padding-top:1.2rem}
